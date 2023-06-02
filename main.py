@@ -50,7 +50,7 @@ with st.sidebar:
     st.markdown("**Important Note:** Unless the model you're using is Davinci, then please keep the total max num of tokens < 1950 to keep the model from breaking. If you're using Davinci, please keep max tokens < 3000.")
 
     st.subheader("Additional Toggles:")
-     st.write("Only change these if you want to add specific parameter information to the model!")
+    st.write("Only change these if you want to add specific parameter information to the model!")
     temperature = st.text_input("Temperature: ", "0.99")
     top_p = st.text_input("Top P: ", "1")
 
